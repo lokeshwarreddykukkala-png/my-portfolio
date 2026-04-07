@@ -1,0 +1,120 @@
+html{
+margin: 20px 30px 20px 30px;
+}
+.first{
+  margin-top: 10px;
+  display: flex;
+ 
+}
+.contact{
+  display: flex;
+  gap: 30px;
+}
+
+.second{
+  order: 1;
+}
+.lokesh{
+  height: 130px;
+  width: 130px;
+  border-radius:100%;
+  margin-left: 20px;
+  padding: 2px;
+  border: 2px solid  white;
+}
+
+.mail{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 2px;
+}
+.linkedin{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 2px;
+}
+.number{
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-left: 2px;
+}
+
+.firstskill{
+  display: flex;
+  gap: 30px;
+}
+
+.cyber{
+ height:400px;
+ width: 600px;
+ border: 5px solid rgb(175, 169, 169);
+ border-radius: 50px;
+ object-fit: cover;
+ 
+}
+
+
+.second-skill{
+  display:flex;
+  gap: 10px;
+}
+
+ 
+.cloud{
+  height:400px;
+  width: 600px;
+  border: 5px solid rgb(185, 178, 184);
+  border-radius: 50px;
+ 
+  object-fit: cover;
+}
+#main{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.vikram{
+  position: relative;
+  top: 30px;
+}
+.card{
+  margin-top: 10px;
+}
+
+@media (max-width : 768px){
+     .first{
+      flex-direction: column-reverse;
+      align-items: center;
+     }
+     .name{
+      text-align: center;
+     }
+     .contact{
+      flex-direction: column;
+     }
+     .cyber{
+      width: 100%;
+     }
+     .firstskill{
+      flex-direction: column;
+     }
+     .cloud{
+      width: 100%;
+      margin-bottom: 20px;
+     }
+     .second-skill{
+      flex-direction:column-reverse;
+     }
+
+}
+
+
+
+
