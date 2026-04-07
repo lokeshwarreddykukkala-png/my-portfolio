@@ -101,12 +101,14 @@ margin: 20px 30px 20px 30px;
      }
      .cyber{
       width: 100%;
+      height:300px;
      }
      .firstskill{
       flex-direction: column;
      }
      .cloud{
       width: 100%;
+      height:300px;
       margin-bottom: 20px;
      }
      .second-skill{
